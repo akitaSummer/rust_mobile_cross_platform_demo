@@ -2,7 +2,16 @@
 
 ### What do i need
 
-If you want to run this project, you must have Android Studi, Xcode and Rust.
+If you want to run this project, you must have Android Studio, Xcode and Rust.
+
+Your Android Studio must have :
+```
+// go to Android Studio > Preferences > Appearance & Behaviour > Android SDK > SDK Tools. 
+
+* Android SDK Tools 
+* NDK (21<=)
+* CMake
+```
 
 then run:
 ```
