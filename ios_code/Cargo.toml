@@ -1,0 +1,16 @@
+[package]
+name = "ios_code"
+version = "0.1.0"
+edition = "2021"
+
+build = "build.rs"
+
+[lib]
+crate-type = ["staticlib"]
+
+[build-dependencies]
+swift-bridge-build = "0.1.34"
+
+[dependencies]
+source_code = { path = '../source_code' }
+swift-bridge = "0.1.34"

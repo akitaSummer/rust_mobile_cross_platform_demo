@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "source_code",
+    "android_code",
+    "ios_code"
+]
